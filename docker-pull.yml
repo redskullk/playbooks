@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+    - name: docker constainer
+      docker_container:
+        name: test-node-app
+        image: ansible007/node-app
+        ports:
+          - 8080:8080
