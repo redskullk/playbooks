@@ -2,4 +2,4 @@
 - hosts: jenkins
   tasks:
     - name: restart your node app
-      command: node /home/jenkins/test-node-app/app.js
+      command: node /home/jenkins/testApp/app.js
