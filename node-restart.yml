@@ -1,0 +1,5 @@
+---
+- hosts: jenkins
+  tasks:
+    - name: restart your node app
+      command: node /home/ec2-user/test-node-app/app.js
